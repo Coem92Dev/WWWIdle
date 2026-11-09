@@ -1,7 +1,7 @@
 const rooms = {
     dusty_gulch: {
       name: "Dusty Gulch",
-      image: "images/dusty_gulch.png",
+      image: "images/Dusty_Gulch_outside.jpg",
       text: "You arrive in Dusty Gulch, a forgotten frontier town.",
       buttons: [
         {
@@ -17,7 +17,7 @@ const rooms = {
   
     saloon: {
       name: "The Saloon",
-      image: "images/saloon.png",
+      image: "images/saloon.jpeg",
       text: "A skeleton is losing an arm-wrestling match to a cowboy.",
       buttons: [
         {

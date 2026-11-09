@@ -28,6 +28,7 @@ function loadRoom(roomID) {
   room.buttons.forEach(buttonData => {
     const button = document.createElement("button");
 
+    button.className = "w-56 cursor-pointer rounded border border-amber-200/70 bg-stone-900 px-4 py-2 text-amber-50 transition-colors hover:border-amber-100 hover:bg-amber-950";
     button.textContent = buttonData.text;
 
     button.onclick = () => {
